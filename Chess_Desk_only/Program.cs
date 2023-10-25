@@ -9,30 +9,6 @@ namespace Chess_Desk_only
 
 	internal class Program
 	{
-
-		static void PrintSymbol_type1(char s1, char s2, bool flag)
-		{
-			if (flag)
-			{
-				Console.Write(s1);
-			}
-			else
-			{
-				Console.Write(s2);
-			}
-		}
-		static void PrintSymbol_type2(char s1, char s2, bool flag)
-		{
-			if (flag)
-			{
-				Console.Write(s2);
-			}
-			else
-			{
-				Console.Write(s1);
-			}
-		}
-
 		static void Main(string[] args)
 		{
 			int cell_size;
